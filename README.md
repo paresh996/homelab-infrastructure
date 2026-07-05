@@ -71,12 +71,12 @@ The environment is provisioned via an automated master restoration controller (`
 ### Initial Node Bootstrap
 ```bash
 # Clone infrastructure blueprint
-git clone https://github.com/your-repo/infrastructure-cluster.git
-cd infrastructure-cluster
+git clone https://github.com/paresh996/linux-scripts.git
+cd linux-scripts
 
 # Set script execute bits and trigger deployment
-chmod +x scripts/SETUP_MASTER.sh
-./scripts/SETUP_MASTER.sh
+chmod +x SETUP_MASTER.sh
+./SETUP_MASTER.sh
 ```
 
 ---
